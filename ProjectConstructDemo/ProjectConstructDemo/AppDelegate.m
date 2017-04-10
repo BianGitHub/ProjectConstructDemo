@@ -22,6 +22,9 @@
     
     UITabBarController *tbC = [[UITabBarController alloc] init];
     BLHomeViewController *home = [[BLHomeViewController alloc] init];
+    home.tabBarItem.title = @"首页";
+    home.tabBarItem.image = [[UIImage imageNamed:@"TabBar_HomeBar"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    home.tabBarItem.selectedImage = [[UIImage imageNamed:@"TabBar_HomeBar_Sel"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:home];
     tbC.viewControllers = @[nav];
     
