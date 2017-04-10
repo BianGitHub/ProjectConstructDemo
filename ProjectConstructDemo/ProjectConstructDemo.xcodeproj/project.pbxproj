@@ -19,6 +19,7 @@
 		1153D8031E9B7E69004B6C76 /* BLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153D8021E9B7E69004B6C76 /* BLTabBarController.m */; };
 		1153D8061E9B8306004B6C76 /* BLNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153D8051E9B8306004B6C76 /* BLNavController.m */; };
 		1153D80D1E9B8F85004B6C76 /* BLBussinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153D80A1E9B8F85004B6C76 /* BLBussinessViewController.m */; };
+		1153D80F1E9B9359004B6C76 /* BLBussiness.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1153D80E1E9B9359004B6C76 /* BLBussiness.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		1153D8051E9B8306004B6C76 /* BLNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLNavController.m; sourceTree = "<group>"; };
 		1153D8091E9B8F85004B6C76 /* BLBussinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBussinessViewController.h; sourceTree = "<group>"; };
 		1153D80A1E9B8F85004B6C76 /* BLBussinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBussinessViewController.m; sourceTree = "<group>"; };
+		1153D80E1E9B9359004B6C76 /* BLBussiness.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BLBussiness.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -320,6 +322,7 @@
 			children = (
 				1153D8091E9B8F85004B6C76 /* BLBussinessViewController.h */,
 				1153D80A1E9B8F85004B6C76 /* BLBussinessViewController.m */,
+				1153D80E1E9B9359004B6C76 /* BLBussiness.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -447,6 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1153D7BC1E9B74C5004B6C76 /* LaunchScreen.storyboard in Resources */,
+				1153D80F1E9B9359004B6C76 /* BLBussiness.storyboard in Resources */,
 				1153D7B91E9B74C5004B6C76 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
