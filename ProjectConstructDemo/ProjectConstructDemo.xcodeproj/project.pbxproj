@@ -18,6 +18,7 @@
 		1153D7FD1E9B777F004B6C76 /* BLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153D7FC1E9B777F004B6C76 /* BLMineViewController.m */; };
 		1153D8001E9B778E004B6C76 /* BLBussinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153D7FF1E9B778E004B6C76 /* BLBussinessViewController.m */; };
 		1153D8031E9B7E69004B6C76 /* BLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153D8021E9B7E69004B6C76 /* BLTabBarController.m */; };
+		1153D8061E9B8306004B6C76 /* BLNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153D8051E9B8306004B6C76 /* BLNavController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		1153D7FF1E9B778E004B6C76 /* BLBussinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBussinessViewController.m; sourceTree = "<group>"; };
 		1153D8011E9B7E69004B6C76 /* BLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLTabBarController.h; sourceTree = "<group>"; };
 		1153D8021E9B7E69004B6C76 /* BLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLTabBarController.m; sourceTree = "<group>"; };
+		1153D8041E9B8306004B6C76 /* BLNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLNavController.h; sourceTree = "<group>"; };
+		1153D8051E9B8306004B6C76 /* BLNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLNavController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +186,8 @@
 			children = (
 				1153D8011E9B7E69004B6C76 /* BLTabBarController.h */,
 				1153D8021E9B7E69004B6C76 /* BLTabBarController.m */,
+				1153D8041E9B8306004B6C76 /* BLNavController.h */,
+				1153D8051E9B8306004B6C76 /* BLNavController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -470,6 +475,7 @@
 				1153D7FA1E9B7775004B6C76 /* BLFriendViewController.m in Sources */,
 				1153D7B11E9B74C5004B6C76 /* AppDelegate.m in Sources */,
 				1153D7AE1E9B74C5004B6C76 /* main.m in Sources */,
+				1153D8061E9B8306004B6C76 /* BLNavController.m in Sources */,
 				1153D7FD1E9B777F004B6C76 /* BLMineViewController.m in Sources */,
 				1153D8001E9B778E004B6C76 /* BLBussinessViewController.m in Sources */,
 				1153D7F71E9B7760004B6C76 /* BLHomeViewController.m in Sources */,

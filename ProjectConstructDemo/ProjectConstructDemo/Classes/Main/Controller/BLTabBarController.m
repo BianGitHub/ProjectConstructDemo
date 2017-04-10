@@ -11,6 +11,7 @@
 #import "BLMineViewController.h"
 #import "BLFriendViewController.h"
 #import "BLBussinessViewController.h"
+#import "BLNavController.h"
 
 @interface BLTabBarController ()
 
@@ -21,11 +22,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    BLHomeViewController *home = [[BLHomeViewController alloc] init];
-//    home.tabBarItem.title = @"首页";
-//    home.tabBarItem.image = [[UIImage imageNamed:@"TabBar_HomeBar"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-//    home.tabBarItem.selectedImage = [[UIImage imageNamed:@"TabBar_HomeBar_Sel"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-//    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:home];
     UIViewController *vc1 = [self controllerWith:@"BLHomeViewController" title:@"首页" imageName:@"TabBar_HomeBar"];
     UIViewController *vc2 = [self controllerWith:@"BLBussinessViewController" title:@"口碑" imageName:@"TabBar_HomeBar"];
     UIViewController *vc3 = [self controllerWith:@"BLFriendViewController" title:@"朋友" imageName:@"TabBar_HomeBar"];
@@ -39,7 +35,7 @@
     vc.tabBarItem.title = title;
     vc.tabBarItem.image = [[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     vc.tabBarItem.selectedImage = [[UIImage imageNamed:[NSString stringWithFormat:@"%@_Sel", imageName]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    BLNavController *nav = [[BLNavController alloc] initWithRootViewController:vc];
     return nav;
 }
 
