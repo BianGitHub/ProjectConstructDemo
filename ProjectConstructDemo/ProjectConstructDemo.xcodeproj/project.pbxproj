@@ -16,9 +16,9 @@
 		1153D7F71E9B7760004B6C76 /* BLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153D7F61E9B7760004B6C76 /* BLHomeViewController.m */; };
 		1153D7FA1E9B7775004B6C76 /* BLFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153D7F91E9B7775004B6C76 /* BLFriendViewController.m */; };
 		1153D7FD1E9B777F004B6C76 /* BLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153D7FC1E9B777F004B6C76 /* BLMineViewController.m */; };
-		1153D8001E9B778E004B6C76 /* BLBussinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153D7FF1E9B778E004B6C76 /* BLBussinessViewController.m */; };
 		1153D8031E9B7E69004B6C76 /* BLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153D8021E9B7E69004B6C76 /* BLTabBarController.m */; };
 		1153D8061E9B8306004B6C76 /* BLNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153D8051E9B8306004B6C76 /* BLNavController.m */; };
+		1153D80D1E9B8F85004B6C76 /* BLBussinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153D80A1E9B8F85004B6C76 /* BLBussinessViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,12 +58,12 @@
 		1153D7F91E9B7775004B6C76 /* BLFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLFriendViewController.m; sourceTree = "<group>"; };
 		1153D7FB1E9B777F004B6C76 /* BLMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMineViewController.h; sourceTree = "<group>"; };
 		1153D7FC1E9B777F004B6C76 /* BLMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMineViewController.m; sourceTree = "<group>"; };
-		1153D7FE1E9B778E004B6C76 /* BLBussinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBussinessViewController.h; sourceTree = "<group>"; };
-		1153D7FF1E9B778E004B6C76 /* BLBussinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBussinessViewController.m; sourceTree = "<group>"; };
 		1153D8011E9B7E69004B6C76 /* BLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLTabBarController.h; sourceTree = "<group>"; };
 		1153D8021E9B7E69004B6C76 /* BLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLTabBarController.m; sourceTree = "<group>"; };
 		1153D8041E9B8306004B6C76 /* BLNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLNavController.h; sourceTree = "<group>"; };
 		1153D8051E9B8306004B6C76 /* BLNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLNavController.m; sourceTree = "<group>"; };
+		1153D8091E9B8F85004B6C76 /* BLBussinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBussinessViewController.h; sourceTree = "<group>"; };
+		1153D80A1E9B8F85004B6C76 /* BLBussinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBussinessViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,7 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				1153D7E11E9B7657004B6C76 /* Main */,
-				1153D7E51E9B7657004B6C76 /* 商家 */,
+				1153D8071E9B8F85004B6C76 /* 口碑 */,
 				1153D7E91E9B7657004B6C76 /* 我的 */,
 				1153D7ED1E9B7657004B6C76 /* 朋友 */,
 				1153D7F11E9B7657004B6C76 /* 首页 */,
@@ -200,39 +200,6 @@
 			sourceTree = "<group>";
 		};
 		1153D7E41E9B7657004B6C76 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		1153D7E51E9B7657004B6C76 /* 商家 */ = {
-			isa = PBXGroup;
-			children = (
-				1153D7E61E9B7657004B6C76 /* Controller */,
-				1153D7E71E9B7657004B6C76 /* Model */,
-				1153D7E81E9B7657004B6C76 /* View */,
-			);
-			path = "商家";
-			sourceTree = "<group>";
-		};
-		1153D7E61E9B7657004B6C76 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				1153D7FE1E9B778E004B6C76 /* BLBussinessViewController.h */,
-				1153D7FF1E9B778E004B6C76 /* BLBussinessViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		1153D7E71E9B7657004B6C76 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		1153D7E81E9B7657004B6C76 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -332,6 +299,39 @@
 			sourceTree = "<group>";
 		};
 		1153D7F41E9B7657004B6C76 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1153D8071E9B8F85004B6C76 /* 口碑 */ = {
+			isa = PBXGroup;
+			children = (
+				1153D8081E9B8F85004B6C76 /* Controller */,
+				1153D80B1E9B8F85004B6C76 /* Model */,
+				1153D80C1E9B8F85004B6C76 /* View */,
+			);
+			path = "口碑";
+			sourceTree = "<group>";
+		};
+		1153D8081E9B8F85004B6C76 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1153D8091E9B8F85004B6C76 /* BLBussinessViewController.h */,
+				1153D80A1E9B8F85004B6C76 /* BLBussinessViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1153D80B1E9B8F85004B6C76 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1153D80C1E9B8F85004B6C76 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -474,10 +474,10 @@
 			files = (
 				1153D7FA1E9B7775004B6C76 /* BLFriendViewController.m in Sources */,
 				1153D7B11E9B74C5004B6C76 /* AppDelegate.m in Sources */,
+				1153D80D1E9B8F85004B6C76 /* BLBussinessViewController.m in Sources */,
 				1153D7AE1E9B74C5004B6C76 /* main.m in Sources */,
 				1153D8061E9B8306004B6C76 /* BLNavController.m in Sources */,
 				1153D7FD1E9B777F004B6C76 /* BLMineViewController.m in Sources */,
-				1153D8001E9B778E004B6C76 /* BLBussinessViewController.m in Sources */,
 				1153D7F71E9B7760004B6C76 /* BLHomeViewController.m in Sources */,
 				1153D8031E9B7E69004B6C76 /* BLTabBarController.m in Sources */,
 			);

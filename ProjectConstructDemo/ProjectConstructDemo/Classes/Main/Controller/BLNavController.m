@@ -26,6 +26,9 @@
     // 如果隐藏了黑线(空背景图片和空阴影图片),必须要设置translucent透明效果为no才能够看到背景颜色
     self.navigationBar.translucent = NO;
     
+    // 设置标题文字颜色
+    [self.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    
     // 设置导航条barbuttonItem颜色
 //    self.navigationBar.tintColor = [UIColor redColor];
 }

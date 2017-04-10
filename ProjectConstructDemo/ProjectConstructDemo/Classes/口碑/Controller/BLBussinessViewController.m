@@ -1,24 +1,23 @@
 //
-//  BLHomeViewController.m
+//  BLBussinessViewController.m
 //  ProjectConstructDemo
 //
 //  Created by 边雷 on 17/4/10.
 //  Copyright © 2017年 Mac-b. All rights reserved.
 //
 
-#import "BLHomeViewController.h"
+#import "BLBussinessViewController.h"
 
-@interface BLHomeViewController ()
+@interface BLBussinessViewController ()
 
 @end
 
-@implementation BLHomeViewController
+@implementation BLBussinessViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor lightGrayColor];
-//    self.title = @"首页";
-    self.navigationItem.title = @"首页";
+    self.view.backgroundColor = [UIColor redColor];
+    self.title = @"口碑";
 }
 
 - (void)didReceiveMemoryWarning {
