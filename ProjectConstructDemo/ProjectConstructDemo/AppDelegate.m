@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "BLHomeViewController.h"
+#import "BLTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -20,13 +20,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    UITabBarController *tbC = [[UITabBarController alloc] init];
-    BLHomeViewController *home = [[BLHomeViewController alloc] init];
-    home.tabBarItem.title = @"首页";
-    home.tabBarItem.image = [[UIImage imageNamed:@"TabBar_HomeBar"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    home.tabBarItem.selectedImage = [[UIImage imageNamed:@"TabBar_HomeBar_Sel"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:home];
-    tbC.viewControllers = @[nav];
+    BLTabBarController *tbC = [[BLTabBarController alloc] init];
     
     // 设置window的初始化控制器
     self.window.rootViewController = tbC;
