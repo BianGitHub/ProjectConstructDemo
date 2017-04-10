@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "BLHomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    UITabBarController *tbC = [[UITabBarController alloc] init];
+    BLHomeViewController *home = [[BLHomeViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:home];
+    tbC.viewControllers = @[nav];
+    
+    // 设置window的初始化控制器
+    self.window.rootViewController = tbC;
+    // 设置主window
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -13,6 +13,10 @@
 		1153D7BC1E9B74C5004B6C76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1153D7BA1E9B74C5004B6C76 /* LaunchScreen.storyboard */; };
 		1153D7C71E9B74C5004B6C76 /* ProjectConstructDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153D7C61E9B74C5004B6C76 /* ProjectConstructDemoTests.m */; };
 		1153D7D21E9B74C5004B6C76 /* ProjectConstructDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153D7D11E9B74C5004B6C76 /* ProjectConstructDemoUITests.m */; };
+		1153D7F71E9B7760004B6C76 /* BLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153D7F61E9B7760004B6C76 /* BLHomeViewController.m */; };
+		1153D7FA1E9B7775004B6C76 /* BLFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153D7F91E9B7775004B6C76 /* BLFriendViewController.m */; };
+		1153D7FD1E9B777F004B6C76 /* BLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153D7FC1E9B777F004B6C76 /* BLMineViewController.m */; };
+		1153D8001E9B778E004B6C76 /* BLBussinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153D7FF1E9B778E004B6C76 /* BLBussinessViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,14 @@
 		1153D7CD1E9B74C5004B6C76 /* ProjectConstructDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectConstructDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1153D7D11E9B74C5004B6C76 /* ProjectConstructDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectConstructDemoUITests.m; sourceTree = "<group>"; };
 		1153D7D31E9B74C5004B6C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1153D7F51E9B7760004B6C76 /* BLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLHomeViewController.h; sourceTree = "<group>"; };
+		1153D7F61E9B7760004B6C76 /* BLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLHomeViewController.m; sourceTree = "<group>"; };
+		1153D7F81E9B7775004B6C76 /* BLFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLFriendViewController.h; sourceTree = "<group>"; };
+		1153D7F91E9B7775004B6C76 /* BLFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLFriendViewController.m; sourceTree = "<group>"; };
+		1153D7FB1E9B777F004B6C76 /* BLMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMineViewController.h; sourceTree = "<group>"; };
+		1153D7FC1E9B777F004B6C76 /* BLMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMineViewController.m; sourceTree = "<group>"; };
+		1153D7FE1E9B778E004B6C76 /* BLBussinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBussinessViewController.h; sourceTree = "<group>"; };
+		1153D7FF1E9B778E004B6C76 /* BLBussinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBussinessViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +209,8 @@
 		1153D7E61E9B7657004B6C76 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1153D7FE1E9B778E004B6C76 /* BLBussinessViewController.h */,
+				1153D7FF1E9B778E004B6C76 /* BLBussinessViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -228,6 +242,8 @@
 		1153D7EA1E9B7657004B6C76 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1153D7FB1E9B777F004B6C76 /* BLMineViewController.h */,
+				1153D7FC1E9B777F004B6C76 /* BLMineViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -259,6 +275,8 @@
 		1153D7EE1E9B7657004B6C76 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1153D7F81E9B7775004B6C76 /* BLFriendViewController.h */,
+				1153D7F91E9B7775004B6C76 /* BLFriendViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -290,6 +308,8 @@
 		1153D7F21E9B7657004B6C76 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1153D7F51E9B7760004B6C76 /* BLHomeViewController.h */,
+				1153D7F61E9B7760004B6C76 /* BLHomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -370,6 +390,7 @@
 		1153D7A11E9B74C4004B6C76 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BL;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Mac-b";
 				TargetAttributes = {
@@ -441,8 +462,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1153D7FA1E9B7775004B6C76 /* BLFriendViewController.m in Sources */,
 				1153D7B11E9B74C5004B6C76 /* AppDelegate.m in Sources */,
 				1153D7AE1E9B74C5004B6C76 /* main.m in Sources */,
+				1153D7FD1E9B777F004B6C76 /* BLMineViewController.m in Sources */,
+				1153D8001E9B778E004B6C76 /* BLBussinessViewController.m in Sources */,
+				1153D7F71E9B7760004B6C76 /* BLHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
