@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // barTintColor 导航条颜色
-    self.navigationBar.barTintColor = [UIColor whiteColor];
+    self.navigationBar.barTintColor = [UIColor colorWithRed:58/255.0 green:58/255.0 blue:58/255.0 alpha:1];
     
     // 取消导航条下方黑线
     [self.navigationBar setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
@@ -30,19 +30,16 @@
 //    self.navigationBar.tintColor = [UIColor redColor];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
 }
-
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+  1.如果控制器被添加到导航控制器的时候, 它自己默认不能再设置状态栏, 需要让导航控制器统一设置
+  2.如果设置下面这段代码,导航控制器中preferredStatusBarStyle方法就没有效果了!!!
+  3.childViewControllerForStatusBarStyle这个方法是导航控制器不在统一设置状态栏样式了, 显示的那个控制器, 就由他们自己设置
+ - (UIViewController *)childViewControllerForStatusBarStyle {
+     return self.topViewController;
+ }
+ */
 
 @end
