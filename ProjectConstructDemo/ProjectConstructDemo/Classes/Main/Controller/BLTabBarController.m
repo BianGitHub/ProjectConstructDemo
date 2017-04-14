@@ -33,7 +33,11 @@
 // 当控制器是sb创建的时候
 -(UIViewController *)controllerWithStoryboard:(NSString *)storyboardName title:(NSString*) title imageName:(NSString *)imageName {
     UIStoryboard *sb = [UIStoryboard storyboardWithName:storyboardName bundle:nil];
-    UIViewController *vc = [sb instantiateInitialViewController];
+    // 初始化箭头所指向的控制器
+    //    UIViewController *vc = [sb instantiateInitialViewController];
+    
+    // 根据storyBoardID加载sb
+    UIViewController *vc = [sb instantiateViewControllerWithIdentifier:@"businesses"];
     
     return [self controller:vc title:title imageName:imageName];
 }
