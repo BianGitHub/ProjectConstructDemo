@@ -51,10 +51,10 @@
 
 -(UIViewController *)controller:(UIViewController *)vc title:(NSString *)title imageName:(NSString *)imageName {
     
-    vc.tabBarItem.title = title;
-    vc.tabBarItem.image = [[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    vc.tabBarItem.selectedImage = [[UIImage imageNamed:[NSString stringWithFormat:@"%@_Sel", imageName]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     BLNavController *nav = [[BLNavController alloc] initWithRootViewController:vc];
+    nav.tabBarItem.title = title;
+    nav.tabBarItem.image = [[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    nav.tabBarItem.selectedImage = [[UIImage imageNamed:[NSString stringWithFormat:@"%@_Sel", imageName]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
     return nav;
 }
